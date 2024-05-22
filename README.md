@@ -2,6 +2,8 @@
 
 SLIF (ServiceListeningInterfaceFixer)
 
+In the first lines of the script you can specify the interfaces to check, and the services
+
 A very symple script that fixes a bug with some services when
 you want to listen to ifaces that can be off when it autostarts
 and the service will not listen to it until you restart the service.
